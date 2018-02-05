@@ -1,0 +1,35 @@
+<div class="container">
+    <h4 class="display-4">
+        Profile
+    </h4>
+    <hr />
+    <div class="container">
+        <form name="myProfile" ng-submit="Redirect()">
+            <div class="form-group">
+                <label for="FirstName">Firstname</label>
+                <input type="text" name="FirstName" maxlength="32" required id="firstname" placeholder="Firstname" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label for="LastName">Lastname</label>
+                <input type="text" name="LastName" maxlength="32" required id="lastname" placeholder="Lastname" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label for="Age">Age</label>
+                <input type="number" min=18 name="Age" maxlength="2" required id="age" placeholder="27" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label for="Email">Email</label>
+                <input type="email" name="Email" maxlength="256" required id="email" placeholder="abcdefg@gmail.com" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label for="Company">Company</label>
+                <input type="text" name="Company" maxlength="256" id="company" placeholder="Ex: Microsoft, Google" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label for="Role">Role</label>
+                <input type="text" name="Role" maxlength="256" id="role" placeholder="Ex: Application Developer, Tech Lead" class="form-control" />
+            </div>
+            <input type="submit" class="btn btn-primary form-control" value="Submit" />
+        </form>
+    </div>
+</div>
