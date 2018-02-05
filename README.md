@@ -8,5 +8,5 @@
 - Use "locationProvider" to enable HTML5 mode and to avoid "#" in routes
 - Use "$uiViewScrollProvider.useAnchorScroll()" to scroll to top on every page redirection in config and "ui-view autoscroll='true'" in HTML
 
-<img src="https://github.com/MohammedDeveloper/ajs-scroll-to-top/blob/master/demo1.PNG">
-<img src="https://github.com/MohammedDeveloper/ajs-scroll-to-top/blob/master/demo2.PNG">
+<img src="https://github.com/MohammedDeveloper/ajs-scroll-to-top/blob/master/demo1.PNG" style="float: left">
+<img src="https://github.com/MohammedDeveloper/ajs-scroll-to-top/blob/master/demo2.PNG" style="float: left">
